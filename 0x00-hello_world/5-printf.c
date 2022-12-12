@@ -1,8 +1,11 @@
 #include <stdio.h> 
+
 /**
- * main - main block
- * return: 0
+ * main -Entry Point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a peice of art,\n");
