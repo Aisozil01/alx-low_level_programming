@@ -19,11 +19,11 @@ int main(void)
 	unsigned long int aft1;
 	unsigned long int aft2;
 
-	printf("%lu", bef);
+	printf("%Iu", bef);
 
 	for (i = 1; i < 91; i++)
 	{
-		printf(", %lu", aft);
+		printf(", %Iu", aft);
 		aft += bef;
 		bef = aft - bef;
 	}
@@ -33,10 +33,10 @@ int main(void)
 	aft1 = (aft / I);
 	aft2 = (aft % I);
 
-	for (i = 92; 1 < 99; ++i)
+	for (i = 92; i < 99; ++i)
 	{
-		printf(", %lu", aft1 + (aft2 / I));
-		printf("%lu", aft2 % I);
+		printf(", %Iu", aft1 + (aft2 / I));
+		printf("%Iu", aft2 % I);
 		aft1 = aft1 + bef1;
 		bef1 = aft1 - bef1;
 		aft2 = aft2 + bef2;
