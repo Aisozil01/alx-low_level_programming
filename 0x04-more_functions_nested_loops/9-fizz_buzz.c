@@ -32,8 +32,7 @@ int main(void)
 				printf("%d", i);
 			}
 		}
-		print("\n");
-
-		return (0);
+		printf("\n");
 	}
+	return (0);
 }
