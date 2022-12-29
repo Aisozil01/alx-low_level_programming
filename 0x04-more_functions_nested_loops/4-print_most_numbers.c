@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - prints the numbers from 0 to 9
+ * print_most_numbers - checks for digit from 0 to 9
  * followed by a new line
  * Return: Always 0.
  */
-void main(void)
+void print_most_numbers(void)
 {
 	int c;
 
